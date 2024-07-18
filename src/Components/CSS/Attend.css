@@ -1,0 +1,177 @@
+.menu i {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .sideMenu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    transition: left 0.3s ease;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+  }
+  
+  .sideMenu.show {
+    left: 0;
+  }
+  
+  .menuContent {
+    padding: 20px;
+  }
+  
+  .menuContent p {
+    margin-top: 30px;
+    color: #d1881a;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .menuContent h2 {
+    margin-top: 30px;
+    color: rgb(11, 11, 89);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .menuContent i {
+    top: 10px;
+    padding-bottom: 20px;
+    right: 10px;
+    left: 190px;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(11, 11, 89);
+  }
+  
+  .Attend {
+    width: 600px;
+    min-height: 732px;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    margin-top: 154px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 44px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+  }
+  
+  .AttendHeader {
+    margin-top: 30px;
+    color: rgb(11, 11, 89);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .stuAdd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+  }
+  
+  .stuInput {
+    border-radius: 50px;
+    background-color: #edeef0;
+    border: none;
+    outline: none;
+    width: 576px;
+    height: 80px;
+    padding-left: 35px;
+    font-size: 20px;
+  }
+  
+  .stuBtn {
+    border-radius: 50px;
+    background-color: #d99732;
+    width: 187px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .logo {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: 230px;
+    margin-bottom: 0;
+  }
+  
+  .list {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .list ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list li {
+    margin: 5px 0;
+    padding: 5px 0 5px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .deleteBtn {
+    background-color: #d99732;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .menuItem {
+    cursor: pointer;
+    color: #d99732;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  .menuItem:hover {
+    text-decoration: underline;
+  }

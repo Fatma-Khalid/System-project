@@ -1,0 +1,148 @@
+.Table {
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .left-text span {
+    background-color: #e6e6fa;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-right: 180px;
+    font-weight: bold;
+  }
+  
+  .center-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 120px;
+    margin-right: 40px;
+  }
+  
+  .main-title {
+    color: rgb(68, 7, 68);
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 26px;
+  }
+  
+  .sub-title {
+    color:  rgb(68, 7, 68);
+    font-size: 18px;
+  }
+  
+  .tableContent {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tableContent th, .tableContent td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #ddd;
+  }
+  
+  .tableContent th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .tableContent td b {
+    font-weight: bold;
+  }
+  
+  .tableContent tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .date-column {
+    background-color: #e6e6fa;
+    font-weight: bold;
+  }
+  
+  .course-keys {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  
+  .course-keys .left-key, .course-keys .right-key {
+    width: 45%;
+  }
+  
+  .course-keys ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-keys li {
+    background-color: #f9f9f9;
+    list-style-type: disc; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .course-keys li b {
+    display: inline-block;
+    width: 70px;
+  }
+  
+  @media (max-width: 768px) {
+    .Table {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .tableContent th, .tableContent td {
+      padding: 10px;
+    }
+  
+    .logo {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .course-keys {
+      flex-direction: column;
+    }
+  
+    .course-keys .left-key, .course-keys .right-key {
+      width: 100%;
+    }
+  }
+  .back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #d99732; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .back-button:hover {
+    background-color: #b87c22; 
+  }
